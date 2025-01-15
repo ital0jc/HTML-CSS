@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*
+    : = pseudoclass
+    > = clildren
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: red;
+    text-decoration: none;/*(none) tirar o sublinhado*/
+    font-weight: bold;
+}
+a:visited { /*depois que o link foi acessado*/
+    color: darkred;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:active { /*quando o link é clicado*/
+    color: rgb(184, 89, 1)
+}
+.especial::after {
+    content: '🗿';
+    font-weight: normal;
+    text-decoration: none;
+    color: darkgray;
+}
+.especial::before {
+    content: '🗽';
+}

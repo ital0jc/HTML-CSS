@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="perfil.ico.ico" type="image/x-icon">
+    <title>Resumo Aprendizagem</title>
+</head>
+<body>
+    <h1>Tudo que aprendi resumidamente no módulo 1 do Curso em Vídeo</h1>
+    <ul>
+        <img src="perfil.jpg" alt="Perfil">
+        <li><i><abbr title="&lt;i&gt;">Itálico</abbr></i></li>
+        <li><b><abbr title="&lt;b&gt;">Negrito</abbr></b></li>
+        <li><abbr title="&lt;br&gt;">Quebra de <br>Linha</abbr></li>
+        <li><abbr title="link:favico">Colocar uma Ico no site</abbr></li>
+        <li><abbr title="&lt;img&gt;">Colocar uma imagem no site</abbr></li>
+        </ul>
+    <ol type="A" start="3">
+        <li><abbr title="&lt;ol&gt; - &lt;li&gt;">Listas numeradas</abbr></li>
+        <li><abbr title="&lt;ul&gt; - &lt;li&gt;">Listas não numeradas</abbr></li>
+        <li><abbr title="&lt;ol type=''1 - A - a - I - i''&gt;">Mudança das formas das numerações das listas</abbr></li>
+        <li><abbr title="&lt;ul type-''square - disc - circle''">Mudança das formas dobjetos das listas</abbr></li>
+        <li><abbr title="&lt;ul type-''square'' start=''3''">De qual letra ou número eu quero que comece a contagem da lista (começaria da letra C)</abbr></li>
+        <li><abbr title="&lt;a&gt; (target=''_blank''' rel=''external'')">Como adicionar links no meu site, e ser direcionado (sem fechar ele)</abbr></li>
+        <li><abbr title="&lt;audio&gt;">Como colocar áudio</abbr></li>
+        <li><abbr title="&lt;video&gt;">Como colocar vídeo no site</abbr></li>
+        <!--
+        <video src="midia/meu-video-mp4.mp4" width="500" controls></video>
+        
+        Forma alternativa de colocar o vídeo no site: 
+        
+        <video poster="imagens/Paisagem.png" controls>
+        <source src="midia/meu-video-mp4.mp4" type="video/mp4"></source>
+        <source src="midia/meu-video-webm.webm" type="video/webm"></source>
+        <p>Seu navegador não tem compatibilidade com reprodução deste vídeo.</p>
+        </video>
+
+        || O poster dentro da tag de vídeo é para deixar uma imagem como capa do vídeo antes de dar play||
+        -->
+
+        <!--
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a colocar áudio agora</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/epic-hybrid-logo-157092.mp3" type="audio/mpeg">
+        <source src="midia/epic-hybrid-logo-157092.wav" type="audio/wav">
+        <source src="midia/epic-hybrid-logo-157092.ogg" type="audio/ogg">
+        </audio>
+        <p>Infelizmente seu navegador não é compatível com nenhum dos tipos de áudios dispobíveis.<a href="midia/epic-hybrid-logo-157092.mp3"> Clique aqui para baixar o arquivo</a></p>
+    
+    ||O preoload é para carregar (metadata) a informações do arquivo, (auto) carregar o arquivo todo para assim também carregar o site, (none) não carregar nada até clicar no play do arquivo.
+    O loop é para recomeçar o áudio quando ele acabar.
+    O controls para aparecer o controle de clicar para começar o áudio, avançar ou pausar.||
+    -->
+
+    <li><abbr title="&lt;picture&gt;">Como colocar uma imagem dinâmica (que se comporta ao tamanho da tela)</abbr></li>
+
+    <!--
+
+    <h1>Imagen Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/verde.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/rosa.png" type="image/png">
+        <img src="imagens/laranja.png" alt="laranjag">
+    </picture>
+
+    ||A primeira imagem a carregar será a do tamanho responsivo da tela. Se a tela for menor vai carregar a menor imagem.||
+    -->
+    <li><abbr title="&lt;a&gt;">Para adicionar um link a uma palavra</abbr></li>
+    
+    <!--
+
+    <a href="www.YouTube.com/@palitinho02"> <img src="perfil.png" alt="Foto Perfil"</a>
+    <p><b>width="0-10000"</b> é o tamanho da imagem ou vídeo que aparecerá no site</p>
+
+    -->
+    <h1>CSS Inline</h1>
+    <li><abbr title="&lt;p style=''text-align: justify;''&gt;">Alinhar o final da linha com as abaixo seguintes</abbr></li>
+    <li><abbr title="&lt;body style=''background-color: lightskyblue;''&gt;">Mudar a cor do fundo do site</abbr></li>
+    <li><abbr title="&lt;body style=''font-family: Arial, Helvetica, sans-serif;''&gt;">Mudar a fonte do size</abbr></li>
+    <li><abbr title="background-image: linear-gradient(to top, white, blue);"Fundo do site com cor em degradê></abbr></li>
+    
+    <!--
+    <style>
+        * { /*configuração global*/
+            height: 100%;
+        }
+        body {
+            background-image: linear-gradient(to top, white, blue);
+        }
+    </style>
+    -->
+    </ol>
+    <p>Usar <a href="https://color.adobe.com" target="_blank" rel="external">Adobe Color</a> ou <a href="https://www.paletton.com" target="_blank" rel="external">Paletton</a> ou <a href="https://www.coolors.co" target="_blank" rel="external">Coolors</a> para criação de harmonia das cores pro meu site.</p>
+    <img src="alturalargura.png" alt="" width="400px">
+    <img src="borderpadding.png" alt="" width="400px">
+    <img src="margin.png" alt="" width="400px">
+    <img src="outline.png" alt="" width="400px">
+    <img src="box-inline-level.png" alt="" width="400px">
+    <img src="inline-box-level.png" alt="" width="400px">
+</body>
+</html>

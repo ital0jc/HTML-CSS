@@ -1,0 +1,12 @@
+@charset "UTF-8";
+div {
+    display: inline-block; /*tudo na mesma linha*/
+    background-color: lightgray;
+    border: 1px solid black; /*borda padrão*/
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div:hover {/*div hover utilizada para fazer uma ação quando o mouse é passado em cima*/
+    background-color: yellow;
+}

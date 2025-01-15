@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in(polegadas), px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    
+    weight(peso) width(largura) height(altura)
+    */
+
+    font-size: 1em;
+    text-decoration: underline;
+}
+h1 {
+    font: italic bolder 3em sans-serif;
+}
+/*shorthand
+font-style > font-weight > font-size > font-family
+*/
+h2 {
+    font: bold 2em Arial;
+}

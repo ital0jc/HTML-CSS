@@ -1,0 +1,32 @@
+@charset "UTF-8";
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+/*
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;    (simplificado como mostrado na linha abaixo)
+*/
+
+    border: 10px solid darkslategray;
+
+/*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;    (simplificado como mostrado na linha abaixo) (se o mesmo valor de todos os lados forem o mesmo, então só um valor posto no simplificado se adequa a todos igualmente) (quando usado dois valores, o primeiro valor se adequa ao de cima e de baixo e o segundo valor se adequa ao da direita e da esquerda)
+*/
+
+    padding: 10px;
+
+    margin: 20px auto 40px auto;
+
+    outline: 5px dashed salmon;
+}
+a { /*inline-level*/
+    border: 10px solid red;
+
+    padding: 10px;
+}
