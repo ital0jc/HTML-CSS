@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+    background-image: url(imagens/wallpaper003.jpg);
+}
+
 .quadrado {
     display: inline-block; /*ficarem na mesma linha*/
     border: 1px solid black;
@@ -17,5 +21,5 @@
 }
 
 #q3 {
-    background-image: url(imagens/pattern001.png);
+    background-image: url(imagens/pattern003.png);
 }

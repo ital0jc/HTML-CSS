@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    height: 97vh;
+    border: 1px dashed black;
+    background-image: url(https://yt3.googleusercontent.com/SdmGHJFIpd-JJqfp26Ya7X-qCJ1O-geen2Zo9u51DXwyw9IB1p34VXs2zMHGCKUzv9qzkAA2DQ=s120-c-k-c0x00ffffff-no-rj);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
