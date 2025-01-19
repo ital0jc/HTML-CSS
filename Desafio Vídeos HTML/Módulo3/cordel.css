@@ -49,6 +49,7 @@ main > article > p {
 
 .container {
     color: white;
+    background-color: black;
     background-size: cover;
     background: url(wallpaper002.jpg) center left no-repeat fixed;
     background-color: lightgray;
@@ -65,5 +66,10 @@ footer {
     padding: 7px;
     text-align: center;
     background-color: black;
+    color: white;
+}
+
+footer > a {
+    text-decoration: none; 
     color: white;
 }
