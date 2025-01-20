@@ -1,75 +1,65 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
-
-@font-face {
-    font-family: 'Cursiva';
-    src: url('fontes/CursiveSerif-Book.ttf');
-    font-weight: normal;
-}
-
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    background-color: white;
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
-    color: white;
     background-color: black;
-    min-height: 140px;
+    color: white;
     text-align: center;
-    padding: 60px 0px 0px 0px;
 }
 
 header > h1 {
-    text;
-    font-family: 'Alfa Slab One', static;
-    font-weight: lighter;
-    font-size: 3em;
-    font-optical-sizing: auto;
+    padding-top: 50px;
+    font-variant: small-caps; /*TODAS FICAM MAIÚSCULAS, mas o restante das letras ficam menores do que a primeira*/
 }
+
 header > p {
-    font-family: 'Roboto', sans-serif;
-    padding: 0px 0px 0px 0px;
+    padding-bottom: 50px;
 }
 
-main > article > p {
-    font-family: 'Cursiva', cursive;
-    font-weight: bold;
-    font-style: italic;
-    padding: 40px 10px 10px 30px;
-    font-size: 1.6em;
+header a, footer a { /*quando colocado a , simboliza que os valores dentro do chocete vão valer para ambos as tags selecionadas*/
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     line-height: 2em;
+    padding-left: 30px;
 }
 
-.container {
+section.normal { /*o . é usado quando uma "div" semântica tem uma class embutida, como o exemplo dessa*/
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(28, 28, 28);
     color: white;
-    background-color: black;
-    background-size: cover;
-    background: url(wallpaper002.jpg) center left no-repeat fixed;
-    background-color: lightgray;
 }
 
-#p1 {
-    background-color: black;
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.383);
+    width: 400px;
 }
 
-#p2 {
-
-}
 footer {
-    padding: 7px;
-    text-align: center;
     background-color: black;
+    text-align: center;
     color: white;
-}
-
-footer > a {
-    text-decoration: none; 
-    color: white;
+    padding: 10px;
 }
