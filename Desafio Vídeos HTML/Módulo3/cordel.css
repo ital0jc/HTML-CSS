@@ -61,8 +61,7 @@ section {
     padding-left: 30px;
     font-family: var(--font3);
     font-style: italic;
-    font-size: 2em;
-    font-size: 4.5% vw;
+    font-size: 3vw;
 }
 
 #img1 {
