@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse; /*para as linhas das bordas ficarem juntas*/
+    border: 1px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.linha {
+    background-color: gray;
+}
+
+.dado {
+    background-color: yellow;
+}
