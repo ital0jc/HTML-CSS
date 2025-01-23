@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOQUEANDO A CAPTURA DE DADOS VIA CADASTRO POR SITES EXTERNOS DENTRO DE IFRAMES E LIBERANDO O ACESSO A SITUAÇÕES ESPECÍFICAS</title>
+    <link rel="stylesheet" href="iframe4.css">
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi veniam explicabo eum delectus harum dolor possimus voluptatem dolorum amet autem, mollitia libero corporis tempora odio architecto vitae omnis nostrum ipsa.</p>
+
+    <iframe src="páginas/pagiframe4.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"> <!--o !!!!!sandbox="sandbox" referrerpolicy="no-referrer"!!!!! não deixa o envio de informações pelo usuário a ser enviado.
+        !!!!!sandbox="allow-same-origin"!!!!! permitir o conteúdo de mesma origem
+        !!!!!sandbox="allow-forms"!!!!! permitir formulários
+        !!!!!sandbox="allow-scripts"!!!!! permitir scripts-->
+        Seu navegador não é compatível com essa funcionalidade.
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore sit omnis modi minima pariatur, nam, earum nobis iusto corrupti illo minus impedit tenetur cum? Excepturi exercitationem assumenda ut perspiciatis.</p>
+</body>
+</html>
