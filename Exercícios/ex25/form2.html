@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO COMO NÃO DEIXAR OS DADOS SEREM ENVIADOS SEM QUE AS CAIXAS NÃO ESTEJAM PREENCHIDAS, QUANTIDADE MÍNIMA E MÁXIMA DE CARACTEREES, TAMANHO DA QUANTIDADE DE CARACTERES A CAIXA VAI TER</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+    <p>
+        <label for="iusu">Usuário:</label>
+        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10" placeholder="Nome">
+    </p>
+    <p>
+        <label for="isen">Senha:</label>
+        <input type="password" name="sen" id="isen" required minlength="8" placeholder="Senha">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+</body>
+</html>
+
+<!--
+required = obrigação de preencher o campo do formulário
+
+minlength="5" = no mínimo essa quantidade de caracteres são obrigatórias para enviar o formulário
+
+maxlength="15" = no máximo essa quantidade de caracteres são obrigatórias para enviar o formulário
+
+size="10" = quantas letras vão mostrar na caixa
+
+placeholder="Nome" = mensagem dentro da caixa antes de ser preenchida com informação
+
+autocomplete="username" = também da para usar o autocomplete para caixas individualmente para a completar com a função que é a designida da caixa
+-->

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO SIMPLES E LABEL QUE DÁ IDENTIFICAÇÃO AS CAIXAS ATRIBUIDAS AO NOME QUE VEM ANTES</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off"> <!--!!!!!autocomplete="off"!!!!! desligar o complemente de dados das caixas-->
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
+
+<!--get = 3 mil letras, não usar para dados no formulário que tiver senhas, fotos, dados de cartão-->
+
+<!--post = 3mil bytes, envio de arquivos, senhas, fotos--> 
+
+<!--label = se coloca o id do formulário, não o name-->
