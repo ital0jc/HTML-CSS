@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+main {
+    background-color: lightgreen;
+    height: 300px;
+    width: 100vw;
+
+    display: flex; /*configuração padrão para o container para a caixa ficar sempre no meio*/
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: lightseagreen;
+    height: 200px;
+    width: 200px;
+}
+
+/*
+justify-content = alinha o conteúdo/itens dentro do eixo principal 
+aling-iten = alinha o conteúdo/itens dentro do eixo transversal
+aling-content = alinha o conteúdo/itens dentro do eixo transversal mas quando está empacotado
+*/
