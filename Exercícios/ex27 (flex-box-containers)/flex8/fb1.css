@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*1 aula fb*/
+.container {
+    display: flex;
+    background-color: lightsalmon;
+    flex-flow: row nowrap;
+}
+
+.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 200px;
+}
+
+#cxA {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+#cxB {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+#cxC {
+    flex-shrink: 8;
+    flex-grow: 1;
+}

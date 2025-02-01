@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*1 aula fb*/
+.container {
+    display: flex;
+    background-color: lightsalmon;
+    flex-flow: row nowrap;
+}
+
+.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: auto;
+}
+/**/
+.container1 {
+    display: flex;
+    background-color: lightsalmon;
+    flex-flow: row nowrap;
+}
+
+.item1 {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 150px;
+}
+/**/
+.container2 {
+    display: flex;
+    background-color: lightsalmon;
+    flex-flow: row wrap;
+}
+
+.item2 {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 150px;
+}
+ /*
+ padrão
+ flex-shrink: 1 (sim pode encolher)
+ flex-grow: 0 (não pode encolher)
